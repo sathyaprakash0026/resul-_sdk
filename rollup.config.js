@@ -157,7 +157,6 @@ const SDKmodules = [
     { name: 'inAppNotificationCss', path: 'src/inAppNotificationCss.js' },
     { name: 'createPassportId', path: 'src/createPassportId.js' },
     { name: 'webeventtrack', path: 'src/webeventtrack.js' },
-    { name: 'webfieldtrack', path: 'src/webfieldtrack.js' },
     { name: 'resumeJourney', path: 'src/resumeJourney.js' },
     { name: 'carouselNotification', path: 'src/carouselNotification.js' },
     { name: 'progressiveForm', path: 'src/progressiveForm.js' },
