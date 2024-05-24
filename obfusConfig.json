@@ -1,0 +1,9 @@
+{
+    "compact": true,
+    "simplify": true,
+    "shuffleStringArray": true,
+    "identifierNamesGenerator": "hexadecimal",
+    "stringArrayEncoding": [
+        "base64"
+    ]
+}

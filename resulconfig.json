@@ -1,0 +1,35 @@
+{
+    "customFileBase": "http://127.0.0.1:5502",
+    "custombase": "https://sdk.resu.io",
+    "serviceWorkerFileConfig": {
+        "path": "firebase-messaging-sw-input-without-fcm.js"
+    },
+    "notificationPrompt": true,
+    "notificationPromptConfig": {
+        "icon": "",
+        "ctaAlignment": "right",
+        "primaryCtaText": "Allow",
+        "primaryCtaTextColor": "#fff",
+        "primaryCtaBgColor": "#333",
+        "secondaryCtaEnable": true,
+        "secondaryCtaText": "No thanks",
+        "secondaryCtaTextColor": "#333",
+        "secondaryCtaBgColor": "#fff",
+        "bgColor": "#999",
+        "title": "Welcome!",
+        "content": "We would like to show updates, please allow!"
+    },
+    "pushNotification": {
+        "pushConfig": {
+            "apiKey": "AIzaSyAZ52vwi0JyQi9-I8rsbvefdbuZsUxaW5w",
+            "authDomain": "onelinesdktest.firebaseapp.com",
+            "projectId": "onelinesdktest",
+            "storageBucket": "onelinesdktest.appspot.com",
+            "messagingSenderId": "537523308807",
+            "appId": "1:537523308807:web:56544f6c4d3a5ae1b61da2",
+            "measurementId": "G-56S9V77FTV"
+        },
+        "pushHeaderKey": "AAAAfSbiyQc:APA91bEkNF7IpWvr6cbSQi4GOQlU6MhVA1vLN9RRL9svqNDD8X4fQpSTq0xrTfpUjkTJHJhFLqdS7hghGgXBjdBoSZswlKezBtbb4TsHx8mTFuJrS3e137Hq-H2gMt5zMknB3RxrwWNb"
+    },
+    "securePushNotification": "a13eyJwdXNoQ29uZmlnIjp7ImFwaUtleSI6IkFJemFTeUFaNTJ2d2kwSnlRaTktSThyc2J2ZWZkYnVac1V4YVc1dyIsImF1dGhEb21haW4iOiJvbmVsaW5lc2RrdGVzdC5maXJlYmFzZWFwcC5jb20iLCJwcm9qZWN0SWQiOiJvbmVsaW5lc2RrdGVzdCIsInN0b3JhZ2VCdWNrZXQiOiJvbmVsaW5lc2RrdGVzdC5hcHBzcG90LmNvbSIsIm1lc3NhZ2luZ1NlbmRlcklkIjoiNTM3NTIzMzA4ODA3IiwiYXBwSWQiOiIxOjUzNzUyMzMwODgwNzp3ZWI6NTY1NDRmNmM0ZDNhNWFlMWI2MWRhMiIsIm1lYXN1cmVtZW50SWQiOiJHLTU2UzlWNzdGVFYifSwicHVzaEhlYWRlcktleSI6IkFBQUFmU2JpeVFjOkFQQTkxYkVrTkY3SXBXdnI2Y2JTUWk0R09RbFU2TWhWQTF2TE45UlJMOXN2cU5ERDhYNGZRcFNUcTB4clRmcFVqa1RKSEpoRkxxZFM3aGdoR2dYQmpkQm9TWnN3bEtlekJ0YmI0VHNIeDhtVEZ1SnJTM2UxMzdIcS1IMmdNdDV6TWtuQjNSeHJ3V05iIn0="
+}

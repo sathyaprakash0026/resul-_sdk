@@ -1,0 +1,15 @@
+node_modules
+node_modules/
+.git
+.git/
+.vscode
+.vscode/
+dist
+common
+dist/
+common/
+# build_config
+# build_config/
+BkpFilesAndModules/
+templates
+templates/

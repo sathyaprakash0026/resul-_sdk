@@ -1,0 +1,1 @@
+importScripts('https://sdk.resu.io/Scripts/sw.js');

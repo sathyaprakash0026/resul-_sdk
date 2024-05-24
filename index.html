@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WebSDK Integrated Sample Web Page</h1>
+</body>
+<script>
+    function loadSDK() {
+        window.ReWebSDKConfig = {
+            "customFileBase": location.origin
+            // "customFileBase": location.origin + "/dist/obfuscated",
+        }
+        var resulSdk = document.createElement('script') 
+        // resulSdk.type = 'text/javascript';
+        resulSdk.setAttribute("fcm_service_path", "/common/scripts/push-sw.js");
+        
+        // resulSdk.src = 'common/handlers/7237b71bb4bd40848b6ed32a32dfc266.js'
+        // resulSdk.src = 'common/handlers/3e4f2ac621e343d6a3eb831f326dd99a.js'
+        // resulSdk.src = 'common/handlers/859c75f0d9324d7582e433f31700ac22.js'
+        // resulSdk.src = 'common/handlers/58c76f020d824babbeeb995d45fd532b.js'
+
+        resulSdk.src = '/dist/obfuscated/common/handlers/498869906cbf422cbf5d8c91350dc525.js'
+        
+        
+        resulSdk.setAttribute("defer", "defer");
+        // document.head.appendChild(resulSdk);
+    }
+    loadSDK();
+
+</script>
+
+</html>
